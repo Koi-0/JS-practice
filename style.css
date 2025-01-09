@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @charset "utf-8";
 
 * {
@@ -48,3 +49,91 @@
     background-color: #333;
     font-size: 15px;
 }
+=======
+@charset "utf-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jua", serif;
+    font-weight: lighter;
+}
+
+#header {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+}
+
+#header h1 {
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+#header .search {
+    width: 60%;
+    padding: 15px;
+    margin: 0px 10px 30px 0;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+}
+
+#header .button {
+    color: #fff;
+    background-color: yellowgreen;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+#header .bookMark {
+    font-size: 15px;
+}
+
+.movieCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #dddddd;
+}
+
+.movieCard > div {
+    margin-top: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px #aaa;
+}
+
+.movieCard .poster {
+    border-radius: 10px;
+}
+
+.movieCard .txt {
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.movieCard .title {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+#footer {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    background-color: #333;
+    font-size: 15px;
+}
+>>>>>>> 95eca08 (영화 카드 리스트 UI 구현 완료)
