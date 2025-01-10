@@ -49,29 +49,32 @@
 .movieCard {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 30px;
     background-color: #dddddd;
 }
 
 .movieCard > div {
     margin-top: 30px;
+    /* width: 260px; */
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0px 5px 5px #aaa;
 }
 
 .movieCard .poster {
+    height: 400px;
     border-radius: 10px;
 }
 
 .movieCard .txt {
     border-radius: 10px;
     padding: 20px;
-    background-color: #fff;
+    /* background-color: #fff; */
 }
 
 .movieCard .title {
-    font-size: 26px;
+    font-size: 20px;
     margin-bottom: 10px;
 }
 
